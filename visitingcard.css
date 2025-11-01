@@ -1,0 +1,71 @@
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #e0eafc, #cfdef3);
+  font-family: "Poppins", sans-serif;
+}
+
+
+.card {
+  display: flex;
+  align-items: center;
+  width: 420px;
+  height: 220px;
+  border-radius: 20px;
+  background: white url('/Images/back.jpg') center/cover no-repeat;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  padding: 20px;
+}
+
+
+.left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background: #fff;
+  color: #5a73d8;
+  font-size: 36px;
+  font-weight: bold;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #5a73d8;
+  box-shadow: 0 0 10px rgba(90, 115, 216, 0.3);
+}
+
+/* Right section (info area) */
+.right {
+  flex: 2;
+  color: #222;
+  padding: 20px;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.role {
+  font-size: 14px;
+  color: #555;
+  margin: 4px 0 12px;
+}
+
+.contact p {
+  font-size: 13px;
+  margin: 2px 0;
+  color: #333;
+}
